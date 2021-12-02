@@ -31,10 +31,10 @@ h1{
     border:none;
 }
 
-.abrirModal{
+.openModal{
     margin-top:2%;
 }
-.abrirModal:hover{
+.openModal:hover{
     cursor:pointer;
     font-weight: 500;
     background:rgba(255, 255, 255, 0.315);
@@ -46,7 +46,7 @@ h1{
     display:none;
 }
 
-#modalExemplo:checked + .modal{
+#modalExample:checked + .modal{
     display:flex;
 }
 
@@ -72,7 +72,7 @@ h1{
     color:rgb(255, 101, 30);
 }
 
-.modal .conteudoModal{
+.modal .modalContent{
     width:80%;
     height:40%;
     border:1px solid lightgray;
@@ -82,11 +82,11 @@ h1{
     text-align: center;
 }
 
-.modal .conteudoModal h1{
+.modal .modalContent h1{
     display:block;
 }
 
-.modal .conteudoModal .img{
+.modal .modalContent .img{
     max-height:100px;
     display:inline-block;
 

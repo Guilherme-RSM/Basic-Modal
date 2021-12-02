@@ -1,29 +1,38 @@
 <!DOCTYPE html>
+
 <html lang="pt-br">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Janela Modal Simples com HTML e CSS</title>
-        <link rel="stylesheet" href="css/style.css">
-        <script src="https://kit.fontawesome.com/0fcbc8e701.js" crossorigin="anonymous"></script>
 
-    </head>
+<head>
 
-    <body>
-        <h1>Modal básico com HTML e CSS</h1>
-        <label for="modalExemplo" class="abrirModal">Abrir Modal</label>
-        <input type="checkbox" class="checkboxModal" id="modalExemplo">
+    <!-- metaTags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <div class="modal">
-            <label for="modalExemplo" class="fecharModal"><i class="fas fa-times-circle"></i></label>
-            <div class="conteudoModal">
-                <h1>Modal Básico</h1>
-                <img width="200px" src="img/html-css.png">
+    <!-- style -->
+    <link rel="stylesheet" href="css/style.css">
 
+    <!-- script -->
+    <script src="https://kit.fontawesome.com/0fcbc8e701.js" crossorigin="anonymous"></script>
 
-            </div>
+    <!-- title -->
+    <title>Janela Modal Simples com HTML e CSS</title>
+
+</head>
+
+<body>
+
+    <h1>Modal básico com HTML e CSS</h1>
+    <label for="modalExample" class="openModal">Abrir Modal</label>
+    <input type="checkbox" class="checkboxModal" id="modalExample">
+
+    <div class="modal">
+        <label for="modalExample" class="fecharModal"><i class="fas fa-times-circle"></i></label>
+        <div class="modalContent">
+            <h1>Modal Básico</h1>
+            <img width="200px" src="img/html-css.png">
         </div>
+    </div>
 
-    </body>
+</body>
 
 </html>
